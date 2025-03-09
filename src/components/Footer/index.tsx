@@ -16,7 +16,6 @@ import {
   Empty,
   FooterContainer,
   Language,
-  Label,
   StyledLabel,
 } from "./styles";
 
@@ -26,6 +25,7 @@ interface SocialLinkProps {
 }
 
 const Footer = ({ t }: { t: TFunction }) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleChange = (language: string) => {
     i18n.changeLanguage(language);
   };
@@ -55,7 +55,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="support@intelion.ai">
+              <a href="mailto:support@intelion.ai">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
