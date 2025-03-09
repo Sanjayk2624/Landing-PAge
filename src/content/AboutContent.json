@@ -1,0 +1,16 @@
+{
+  "title": "AI-Powered Media Investigation",
+  "text": "Intelion is an advanced AI platform designed to enhance media investigation and analytics, empowering law enforcement with real-time insights.",
+  "section": [
+    {
+      "title": "Automated Intelligence",
+      "content": "Intelion leverages AI-driven analyzers to classify information, identify patterns, and locate key targets efficiently.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Real-Time Data Processing",
+      "content": "Our platform processes vast amounts of digital content instantly, ensuring investigators get accurate and actionable insights.",
+      "icon": "notes.svg"
+    }
+  ]
+}
